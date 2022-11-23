@@ -15,7 +15,7 @@ def get_sent_date_in_moshi(moshi: str, active: bool) -> list[str]:
     else cacheから取得
 
     Args:
-        moshi (str): （例）2022年度第3回東大本番レベル模試
+        moshi (str): （例）2022年度第3回模試
         active (bool): 該当模試がアクティブかどうか
 
     Returns:

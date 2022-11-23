@@ -36,7 +36,7 @@ def high_prospect(df: pd.DataFrame) -> pd.DataFrame:
     high_grade = ["B+", "A-", "A", "A+"]
     moshi_grade = ["C", "B", "A"]
 
-    df_target = df[(df["グレード"].isin(high_grade)) & ((df["東大合格TOP20フラグ"] == True) | (df["直近東大合格判定"].isin(moshi_grade)))]
+    df_target = df[(df["グレード"].isin(high_grade)) & ((df["*****"] == True) | (df["**"].isin(moshi_grade)))]
 
     return df_target
 
